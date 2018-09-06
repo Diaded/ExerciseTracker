@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./jq.js"></script>
+    <title>Exercise Tracker</title>
+  </head>
+  <body class="errLoginPage">
+    <h1>Exercise Tracker</h1>
+    <div>
+      <form class="bg-danger" action="user" method="post">
+        <h3>Create A New User</h3>
+        <label for="#user">User Name:</label>  <br />
+        <input type="text" name="username" id="user" placeholder="username" /><br />
+        <input type="submit" class="btn btn-primary mt-1" value="submit">
+      </form>
+    </div>
+    <div>
+      <form class="bg-danger mt-2" action="add" method="post">
+          <label for="#add">Add: </label><br />
+          <input type="number" name="id" id="add" placeholder="user-id"><br />
+          <input type="text" name="description" id="add" placeholder="Add-Description"><br />
+          <input type="number" name="duration" id="dur" placeholder="duration"><br/>
+          <input type="date" name="date" id="date" placeholder="date"><br />
+          <input type="submit" class="btn btn-primary mt-1" value="submit">
+      </form>
+    </div>
+    <div><p>route to see user is : /api?{userId}</p></div>
+  </body>
+</html>
