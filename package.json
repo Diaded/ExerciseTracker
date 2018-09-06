@@ -1,0 +1,29 @@
+{
+  "name": "exercisetracker",
+  "version": "1.0.0",
+  "description": "track my exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diaded/ExerciseTracker.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diaded/ExerciseTracker/issues"
+  },
+  "homepage": "https://github.com/Diaded/ExerciseTracker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.6"
+  }
+}
